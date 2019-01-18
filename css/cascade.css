@@ -1,0 +1,143 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+ padding-top: 15px; 
+  margin: 0;
+  background-color: rgb(220, 237, 254);
+}
+.dropbtn {
+  cursor: pointer;
+  border:none;
+  background-color: inherit;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+	display: block;
+	position: absolute;
+	font-size: 20px;
+	padding: 10px;
+	background-color: white;
+
+}
+
+.scroll{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+}
+
+.outer{
+	text-align: center;
+}
+
+.outer ul{
+	overflow: hidden;
+	list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.outer ul li{
+	float: left;
+	padding-right: 50px;
+}
+
+.parent{
+	background-color: rgb(220, 237, 254);
+}
+
+.parent .outer .scroll .dropdown .drop{
+	text-decoration: underline;
+	text-decoration-style:dashed;
+}
+
+.child{
+	background-color: white;
+	padding:10px;
+	border-radius: 5px;
+	margin: 15px;
+}
+
+.video{
+	margin: 0px;
+	padding-left: 0px;
+	width: 25%;
+	float: left;
+}
+
+.video video{
+	border-radius: 8px;
+}
+
+.data{
+	margin: 0px;
+	padding-left: 10px;
+	width: 75%;
+	float: left;
+}
+
+.data h1{
+	color:rgb(82, 60, 120);
+}
+.data p{
+    color:rgb(82, 60, 120);	
+}
+.row{
+	margin: 10px;
+}
+
+.list{
+	background-color: white;
+	margin: 10px;
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	border-left-style : solid;
+	border-left-color : blue;
+	border-left-width: 3px;
+	border-radius: 5px;
+}
+
+.list h4{
+	font-size: 15px;
+}
+
+.row .list .icon{
+	font-size: 13px;
+	color:grey;
+	left: 0px;
+	right: 0px;
+}
+
+.row .list .pic i{
+  color: grey;
+  position: relative;
+  bottom: 1px;
+  margin-right: 10px;
+  fill: #fff;
+
+}
